@@ -1,0 +1,48 @@
+body {
+    background-color: #b4cde6;
+    color: #3C2317;
+    max-width: 800px;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    padding-top: 35px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.strengths {
+    background-color:#F5EFE6;
+    padding: 25px;
+    border-radius: 25px;
+    border: 1px solid #3C2317;
+}
+
+.strengths h2 {
+    font-size: 36px;
+    color: #3C2317;
+}
+
+hr {
+    max-width: 600px;
+    color: #3C2317;
+}
+
+.list {
+    font-size: 20px;
+    color: #3C2317;
+    line-height: 35px;
+}
+
+.theme {
+    font-weight: bold;
+}
