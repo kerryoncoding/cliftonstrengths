@@ -5,6 +5,7 @@ body {
 }
 
 .main {
+    color: #3C2317;
     max-width: 800px;
     display: block;
     margin: 0 auto;
@@ -35,6 +36,8 @@ a:hover {
 .strengths {
     background-color:#F5EFE6;
     max-width: 800px;
+    display: block;
+    margin: 0 auto;
     padding: 25px;
     border-radius: 25px;
     border: 1px solid #3C2317;
@@ -55,11 +58,6 @@ a:hover {
     max-height: 38px;
 }
 
-hr {
-    max-width: 600px;
-    color: #3C2317;
-}
-
 .list {
     font-size: 20px;
     color: #3C2317;
@@ -69,9 +67,15 @@ hr {
 .theme {
     font-weight: bold;
     font-size: 24px;
+    text-align:right;
+}
+
+.detail{
+    text-align: left;
 }
 
 footer {
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 25px;
 }
