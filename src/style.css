@@ -1,20 +1,23 @@
 body {
+    background-color: #b4cde6 !important;
     font-family: 'Lato', sans-serif;
-    background-color: #b4cde6;
     color: #3C2317;
+}
+
+.main {
     max-width: 800px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-h1 {
+.main h1 {
     font-size: 48px;
     padding-top: 35px;
     margin: 0;
 }
 
-h3 {
+.main h3 {
     font-size: 28px;
     margin: 0;
     padding-top: 10px;
@@ -31,6 +34,7 @@ a:hover {
 
 .strengths {
     background-color:#F5EFE6;
+    max-width: 800px;
     padding: 25px;
     border-radius: 25px;
     border: 1px solid #3C2317;
@@ -39,6 +43,16 @@ a:hover {
 .strengths h2 {
     font-size: 36px;
     color: #3C2317;
+}
+
+.number {
+    background-color:#3C2317;
+    color: #F5EFE6;
+    font-size: 24px;
+    font-weight:bold;
+    border-radius: 10px;
+    margin-left: 20px;
+    max-height: 38px;
 }
 
 hr {
